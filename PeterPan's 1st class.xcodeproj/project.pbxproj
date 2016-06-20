@@ -54,6 +54,7 @@
 		AC8F9A711D180C450015EC34 /* PeterPan's 1st class */ = {
 			isa = PBXGroup;
 			children = (
+				AC8F9A841D1815250015EC34 /* NewGP */,
 				AC8F9A721D180C450015EC34 /* AppDelegate.swift */,
 				AC8F9A741D180C450015EC34 /* ViewController.swift */,
 				AC8F9A761D180C450015EC34 /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				AC8F9A7E1D180C460015EC34 /* Info.plist */,
 			);
 			path = "PeterPan's 1st class";
+			sourceTree = "<group>";
+		};
+		AC8F9A841D1815250015EC34 /* NewGP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NewGP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,8 @@
 				TargetAttributes = {
 					AC8F9A6E1D180C450015EC34 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 66R3MF558E;
+						DevelopmentTeamName = "熊 飛 (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -256,9 +266,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PeterPan's 1st class/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Fly.PeterPan-s-1st-class";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imbearfly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -268,9 +279,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PeterPan's 1st class/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Fly.PeterPan-s-1st-class";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imbearfly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
