@@ -24,6 +24,24 @@
                                 <color key="textColor" red="0.95686274510000002" green="0.74509803919999995" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8A-aV-fFy">
+                                <frame key="frameInset" minX="136" minY="441" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.74509803919999995" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShY-XI-obX">
+                                <frame key="frameInset" minX="106" minY="392" width="104" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" image="icon">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.74509803919999995" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.13333333333333333" green="0.19215686274509805" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -37,10 +55,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30.434782608695656" y="-1010.054347826087"/>
+            <point key="canvasLocation" x="-140.625" y="-1139.7887323943662"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JtP-9T-8bX">
+            <objects>
+                <viewController id="UcB-qo-I9d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nlv-FI-hJp"/>
+                        <viewControllerLayoutGuide type="bottom" id="tTM-IX-UGa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="52j-0Y-Hhn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Njo-t2-Sw8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="623" y="-1130"/>
         </scene>
     </scenes>
     <resources>
         <image name="E30-classic" width="300" height="199"/>
+        <image name="icon" width="50" height="50"/>
     </resources>
 </document>
